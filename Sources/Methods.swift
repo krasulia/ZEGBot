@@ -10,7 +10,9 @@
 
 import Foundation
 import Dispatch
-
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 ///  All methods are performed synchronized.
 extension ZEGBot {
 
